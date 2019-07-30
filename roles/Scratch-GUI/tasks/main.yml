@@ -1,0 +1,22 @@
+- name: Create directory
+  file:
+    path: /data/wwwroot/
+    state: directory
+
+- name: Download Scratch-GUI
+  git: 
+    repo: https://github.com/LLK/scratch-gui.git
+    dest: /data/wwwroot/scratch-gui
+
+- name: Installation dependency and Build
+  shell: sudo npm install && sudo npm run build
+  args:
+    chdir: /data/wwwroot/scratch-gui/
+
+- name: set website for nginx
+  copy: 
+    src: default
+    dest: /etc/nginx/conf.d/default.conf
+
+- name: restart nginx
+  service: name=nginx state=restarted enabled=yes
