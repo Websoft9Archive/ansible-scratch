@@ -2,23 +2,16 @@
 
 ## 组件及路径
 
-Mattermost部署包中不仅仅只有Mattermost本身，还包含一序列支持Mattermost运行所需的其他软件（这里称之为组件），下面列出主要组件名称、安装路径、配置文件地址等重要的信息：
+Scratch部署包中不仅仅只有Scratch本身，还包含一序列支持Scratch运行所需的其他软件（这里称之为组件），下面列出主要组件名称、安装路径、配置文件地址等重要的信息：
 
-### Mattermost
+### Scratch
 
-Mattermost
+Scratch安装目录: /data/wwwroot/scratch 
+Scratch配置文件: ？
 
-Metabase安装目录: /data/wwwroot/metabase  
-Metabase配置文件: ？
+> Scratch配置文件中包含数据库连接信息，更改了MySQL数据库账号密码，此处也需要对应修改
 
-> Metabase配置文件中包含数据库连接信息，更改了MySQL数据库账号密码，此处也需要对应修改
-
-### Java or Go?
-Java Directory: /usr/lib/jvm
-
-### Tomcat
-Tomcat Configuration: /etc/tomcat8/
-Tomcat Logs: /var/log/tomcat8
+### Nodejs?
 
 
 ### Nginx
@@ -32,7 +25,7 @@ Database data directory: /data/mysql
 Database Configuration File: /etc/my.cnf  
 MySQL Management URL: _http://Internet IP:9090
 
-### Redis
+### Redis?
 Redis configuration file: _/etc/redis.conf_  
 Redis data directory: _/var/lib/redis_
 

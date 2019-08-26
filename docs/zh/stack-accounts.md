@@ -1,8 +1,8 @@
 # 账号密码
 
-使用Mattermost，可能会用到的几组账号密码如下：
+使用Scratch，可能会用到的几组账号密码如下：
 
-## Mattermost
+## Scratch
 
 在初始化安装的时候由用户自行设置
 
