@@ -12,22 +12,12 @@ Scratch配置文件: ？
 > Scratch配置文件中包含数据库连接信息，更改了MySQL数据库账号密码，此处也需要对应修改
 
 ### Nodejs?
-
+Node configuration file: /usr/include/node/config.gypi
 
 ### Nginx
-Nginx vhost configuration file: /etc/nginx/sites-available/default
+Nginx vhost configuration file: /etc/nginx/conf.d/default.conf
 Nginx configuaration file: /etc/nginx/nginx.conf
 Nginx logs file: /var/log/nginx/
-
-### MYSQL
-Database install directory: /usr/local/mysql  
-Database data directory: /data/mysql  
-Database Configuration File: /etc/my.cnf  
-MySQL Management URL: _http://Internet IP:9090
-
-### Redis?
-Redis configuration file: _/etc/redis.conf_  
-Redis data directory: _/var/lib/redis_
 
 ## 端口号
 
@@ -35,21 +25,23 @@ Redis data directory: _/var/lib/redis_
 
 | 名称 | 端口号 | 用途 |  必要性 |
 | --- | --- | --- | --- |
-| MySQL | 3306 | 远程连接MySQL | 可选 |
 | HTTP | 80 | 通过http访问Metabase | 必须 |
 | HTTPS | 443 | 通过https访问Metabase | 可选 |
-| phpMyAdmin on Docker | 9090 | 可视化管理MySQL | 可选 |
 
 ## 版本号
 
 组件对应的基本版本号可以通过云市场商品页面查看，但部署到您的服务器之后，版本会有一定的升级，故更为精准的版本请通过在服务器上运行命令查看：
 
 ```shell
-# Tomcat version
+Scratch-GUI:
+0.1.0
 
-# Nginx version
+Nginx version:
+1.16.1
 
-# MySQL version
+MySQL version:
+5.7.27
 
-# Java Version
+Node.js Verison:
+10.16.3
 ```
