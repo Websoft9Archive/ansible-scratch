@@ -6,10 +6,8 @@ Scratch部署包中不仅仅只有Scratch本身，还包含一序列支持Scratc
 
 ### Scratch
 
-Scratch安装目录: /data/wwwroot/scratch 
-Scratch配置文件: ？
+Scratch安装目录: /data/wwwroot/scratch/build
 
-> Scratch配置文件中包含数据库连接信息，更改了MySQL数据库账号密码，此处也需要对应修改
 
 ### Nodejs?
 Node configuration file: /usr/include/node/config.gypi
@@ -25,8 +23,8 @@ Nginx logs file: /var/log/nginx/
 
 | 名称 | 端口号 | 用途 |  必要性 |
 | --- | --- | --- | --- |
-| HTTP | 80 | 通过http访问Metabase | 必须 |
-| HTTPS | 443 | 通过https访问Metabase | 可选 |
+| HTTP | 80 | 通过http访问Scratch | 必须 |
+| HTTPS | 443 | 通过https访问Scratch | 可选 |
 
 ## 版本号
 
