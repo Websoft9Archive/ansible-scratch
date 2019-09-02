@@ -34,9 +34,6 @@ Nginx logs file: /var/log/nginx/
 Nginx version:
 nginx -v
 
-MySQL version:
-mysql -V
-
 Node.js Verison:
 node --version
 ```
