@@ -9,7 +9,7 @@ Scratch部署包中不仅仅只有Scratch本身，还包含一序列支持Scratc
 Scratch安装目录: /data/wwwroot/scratch/build
 
 
-### Nodejs?
+### Nodejs
 Node configuration file: /usr/include/node/config.gypi
 
 ### Nginx
