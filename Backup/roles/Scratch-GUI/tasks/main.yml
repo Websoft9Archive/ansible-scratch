@@ -5,7 +5,7 @@
 
 - name: Download Scratch-GUI
   git: 
-    repo: "{{scratch_download_url}}"
+    repo: https://github.com/LLK/scratch-gui.git
     dest: /data/wwwroot/scratch-gui
 
 - name: Installation dependency and Build
