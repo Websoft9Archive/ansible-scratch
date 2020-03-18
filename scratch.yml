@@ -12,7 +12,7 @@
     - { role: role_cloud, tags: "role_cloud"}  
     - { role: role_node.js, tags: "role_node.js"}
     - { role: role_nginx, tags: "role_nginx"}     
-    - { role: scratch_gui, tags: "scratch_gui"}
+    - { role: scratch-gui, tags: "scratch-gui"}
     - { role: role_preend, tags: "role_preend"}  
     - { role: role_end, tags: "role_end"}  
 
