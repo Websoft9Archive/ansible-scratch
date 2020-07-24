@@ -9,7 +9,7 @@
     remote_src: yes
 
 - name: Rename dir name
-  shell: cd /data/wwwroot; if [ ! -d "scratch-gui*" ]; then mv scratch-gui* scratch; fi
+  shell: cd /data/wwwroot; if [ $( ls | grep "scratch-gui") ]; then mv scratch-gui* scratch; fi
 
 - name: Installation dependency and Build
   shell: sudo npm install && sudo npm run build
