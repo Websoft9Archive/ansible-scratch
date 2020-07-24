@@ -7,12 +7,12 @@
 - name: Download Scratch-GUI
   git: 
     repo: "{{scratch_download_url}}"
-    dest: /data/wwwroot
+    dest: /data/wwwroot/scratch
 
 - name: Installation dependency and Build
   shell: sudo npm install && sudo npm run build
   args:
-    chdir: /data/wwwroot/scratch-gui/
+    chdir: /data/wwwroot/scratch
 
 - name: set website for nginx
   copy: 
