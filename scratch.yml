@@ -1,5 +1,4 @@
-# 核心任务
-- name: Scratch-GUI
+- name: Scratch
   hosts: all
   become: yes
   become_method: sudo

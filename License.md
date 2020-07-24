@@ -1,3 +1,5 @@
+LGPL-3.0 and additional Terms: It is not allowed to publish free or paid image based on this repository in any Cloud platform's Marketplace.
+
                    GNU LESSER GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
