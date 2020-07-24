@@ -2,17 +2,14 @@
 
 ## To do
 
-1. 可视化管理工具
-2. AmazonLinux支持
+1. 
 
 ## Logs
 
 ### Bug Fixes
 
-* 2020-02-14  redis-version版本输出
-* 2020-02-13  redis-version版本输出
+* 2020-07-24  use download release zip(<100M) file to replace git clone repository(>1G)
 
 ### Features
 
-* 2020-02-14  增加GUI工具
-* 2020-02-13  增加2.8版本
+* 2020-02-14  created
