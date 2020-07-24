@@ -2,13 +2,8 @@
 
 We collect the most common troubleshooting of using Scratch for your reference:
 
-## Database related
+> Instance troubleshooting is closely related to the Instance provider that is Cloud Platform, refer to [Cloud Platform Documentation](https://support.websoft9.com/docs/faq/tech-instance.html)
 
-## Instance related
+#### How can I use the logs?
 
-Instance troubleshooting is closely related to the Instance provider that is Cloud Platform   
-Please refer to [Cloud Platform Documentation](https://support.websoft9.com/docs/faq/tech-instance.html)
-
-## Network related
-
-## Other
+You can find the keywords **Failed** or **error** from the logs directory: `/data/logs`

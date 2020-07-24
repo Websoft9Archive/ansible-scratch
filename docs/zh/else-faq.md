@@ -4,6 +4,10 @@
 
 支持多语言（包含中文），系统默认根据浏览器自动选择语言，并可以实时切换 
 
+#### Scratch 支持用户注册和登录吗？
+
+暂时不支持
+
 #### scratch-www 项目 和 scratch-gui 项目 有什么区别？
 
 [scratch-www](https://github.com/LLK/scratch-www)  = [scratch-gui](https://github.com/LLK/scratch-gui)  + 分享社区，现在 scratch-www 用户登录功能还在开发中
