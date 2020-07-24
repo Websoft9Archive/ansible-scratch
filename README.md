@@ -24,11 +24,7 @@
 
 ## 本项目安装的是 Scratch 最新版吗？
 
-本项目通过下载 Github 上 Scratch 源码进行安装，下载链接存储在：[role/scratch/defaults/main.yml](/roles/scratch/defaults/main.yml)。我们会定期检查并测试官方版本的可用性，尽可能保证用户可以顺利安装最新版。
-
-```
-scratch_download_url: "https://github.com/LLK/scratch-gui.git"
-```
+本项目通过下载 Github 上 Scratch Release 源码 zip 文件进行安装，下载链接存储在：[role/scratch/defaults/main.yml](/roles/scratch/defaults/main.yml)。我们会定期检查并测试官方版本的可用性，尽可能保证用户可以顺利安装最新版。
 
 ## 安装指南
 
