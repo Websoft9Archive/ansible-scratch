@@ -21,3 +21,9 @@
 
 - name: restart nginx
   service: name=nginx state=restarted enabled=yes
+  
+
+# Check version
+- block:
+  - name: Check Erlang Version
+    shell: sudo sh -c 'echo "find it form https://github.com/LLK/scratch-gui/releases" 1>> /data/logs/install_version.txt'
