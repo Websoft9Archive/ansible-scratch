@@ -2,5 +2,8 @@ server {
   listen 80;
   server_name _;
   root /data/wwwroot/scratch/build;
+  error_log /var/log/nginx/scratch.example.com-error.log error;
+  access_log  /var/log/nginx/scratch.example.com-access.log;
+  include extra/*.conf;
 }
 
