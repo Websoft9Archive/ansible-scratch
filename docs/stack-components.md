@@ -6,8 +6,8 @@ The Scratch deployment package contains a sequence software (referred to as "com
 
 ### Scratch
 
-Scratch project directory: */data/wwwroot/scratch-gui*  
-Scratch static web directory: */data/wwwroot/scratch-gui/build*
+Scratch project directory: */data/wwwroot/scratch*  
+Scratch static web directory: */data/wwwroot/scratch/build*
 
 > Scratch is based on Node.js, you can modify the source code and run build again
 

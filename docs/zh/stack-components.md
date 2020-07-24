@@ -6,8 +6,8 @@ Scratch 预装包包含 Scratch 运行所需一序列支撑软件（简称为“
 
 ### Scratch
 
-Scratch 项目目录： */data/wwwroot/scratch-gui*  
-Scratch 静态页面目录： */data/wwwroot/scratch-gui/build*  
+Scratch 项目目录： */data/wwwroot/scratch*  
+Scratch 静态页面目录： */data/wwwroot/scratch/build*  
 
 > Scratch 基于Node开发，可以通过修改Node.js后再次构建发布
 
