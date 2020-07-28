@@ -1,2 +1,3 @@
 nodejs_ver: "10"
+nginx_certbot: True
 common_os_support: ["CentOS", "Ubuntu", "Amazon"]
