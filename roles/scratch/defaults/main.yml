@@ -1,4 +1,4 @@
 # get download url from: https://github.com/LLK/scratch-gui/releases
 # don't use git clone repository which overwise 1G
-# https://github.com/LLK/scratch-gui/archive/0.1.0-prerelease.20200918100203.zip
-scratch_download_url: "https://github.com/LLK/scratch-www/archive/v2.2.3-hotfix.zip"
+ 
+scratch_download_url: "https://github.com/LLK/scratch-gui/archive/0.1.0-prerelease.20200918100203.zip"
