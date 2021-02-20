@@ -1,7 +1,7 @@
 
 # Scratch 自动化安装与部署
 
-本项目是由 [Websoft9](https://www.websoft9.com) 研发的 [Scratch](https://scratch.mit.edu/) 自动化安装程序，开发语言是 Ansible。使用本项目，只需要用户在 Linux 上运行一条命令，即可自动化安装 Scratch，让原本复杂的安装过程变得没有任何技术门槛。  
+本项目是由 [Websoft9](https://www.websoft9.com) 研发的 [Scratch3.0](https://github.com/LLK/scratch-gui) 自动化安装程序，开发语言是 Ansible。使用本项目，只需要用户在 Linux 上运行一条命令，即可自动化安装 Scratch，让原本复杂的安装过程变得没有任何技术门槛。  
 
 本项目是开源项目，采用 LGPL3.0 开源协议。
 
