@@ -2,4 +2,6 @@
 # don't use git clone repository which overwise 1G
  
 # scratch_download_url: "https://github.com/LLK/scratch-gui/archive/0.1.0-prerelease.20200918100203.zip"
-scratch_download_url: "https://github.com/LLK/scratch-gui/archive/0.1.0-prerelease.20201208061839.zip"
+# scratch_download_url: "https://github.com/LLK/scratch-gui/archive/0.1.0-prerelease.20201208061839.zip"
+scratch_download_url: "https://github.com/LLK/scratch-gui/archive/scratch-desktop-v3.20.1.zip"
+# scratch_download_url: "https://github.com/LLK/scratch-gui/archive/0.1.0-prerelease.20210302213127.zip"
