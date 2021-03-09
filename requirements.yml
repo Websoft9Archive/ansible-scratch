@@ -4,7 +4,7 @@
 
 - src: http://github.com/websoft9/role_nginx
 
-- src: http://github.com/websoft9/role_node.js
+- src: http://github.com/websoft9/role_node
 
 - src: http://github.com/websoft9/role_preend
 
