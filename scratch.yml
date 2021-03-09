@@ -9,7 +9,7 @@
   roles:
     - { role: role_common, tags: "role_common"}  
     - { role: role_cloud, tags: "role_cloud"}  
-    - { role: role_node.js, tags: "role_node.js"}
+    - { role: role_nodejs, tags: "role_nodejs"}
     - { role: role_nginx, tags: "role_nginx"}     
     - { role: scratch, tags: "scratch"}
     - { role: role_preend, tags: "role_preend"}  
