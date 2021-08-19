@@ -16,7 +16,7 @@
 | 私有云|  KVM, VMware, VirtualBox, OpenStack | 可选 |
 | 服务器配置 | 最低1核1G，存储20GB以上，Swap分区2GB以上 |  建议采用按量100M带宽 |
 
-更多请见： [官方 System requirement]()。
+更多请见： [官方 System requirement](https://github.com/LLK/scratch-gui)。
 
 ## 组件
 
